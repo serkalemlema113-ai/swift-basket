@@ -1,68 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Swift Basket/title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background: #333;
-            color: white;
-            padding: 15px;
-            text-align: center;
-        }
-        nav {
-            background: #555;
-            padding: 10px;
-            text-align: center;
-        }
-        nav a {
-            color: white;
-            margin: 0 10px;
-            text-decoration: none;
-        }
-        nav a:hover {
-            text-decoration: underline;
-        }
-        main {
-            padding: 20px;
-        }
-        footer {
-            background: #333;
-            color: white;
-            text-align: center;
-            padding: 10px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Swift Basket</title>
 </head>
-<body>
 
-<header>
-    <h1>Welcome to Swift Basket</h1>
-    <p>skincare & baby essentials</p>
+<body style="margin:0; font-family: Arial; background:#f5f5f5;">
+
+<header style="background: green; color: white; padding: 20px; text-align: center;">
+    <h1>Swift Basket</h1>
+    <p>Best Beauty, Skincare & Baby Products</p>
 </header>
 
-<nav>
-    <a href="#">Home</a>
-    <a href="#">About</a>
-    <a href="#">Contact</a>
-</nav>
+<section style="padding: 20px;">
+    <h2>Featured Products</h2>
 
-<main>
-    <h2>Home</h2>
-    <p>shope quality beaty,skincare and babay essentials.</p>
-</main>
+    <div style="display:flex; flex-wrap:wrap; gap:20px;">
 
-<footer>
-    <p>&copy; 2026 My Website</p>
+        <!-- Product 1 -->
+        <div style="background:white; padding:15px; width:220px; border-radius:10px;">
+            <img src="https://via.placeholder.com/200" width="100%">
+            <h3>Baby Diapers</h3>
+            <p>$20</p>
+            <a href="#" target="_blank" style="background:green; color:white; padding:10px; display:block; text-align:center; text-decoration:none; border-radius:5px;">
+                Buy on Amazon
+            </a>
+        </div>
+
+        <!-- Product 2 -->
+        <div style="background:white; padding:15px; width:220px; border-radius:10px;">
+            <img src="https://via.placeholder.com/200" width="100%">
+            <h3>Face Cream</h3>
+            <p>$15</p>
+            <a href="#" target="_blank" style="background:green; color:white; padding:10px; display:block; text-align:center; text-decoration:none; border-radius:5px;">
+                Buy on Amazon
+            </a>
+        </div>
+
+        <!-- Product 3 -->
+        <div style="background:white; padding:15px; width:220px; border-radius:10px;">
+            <img src="https://via.placeholder.com/200" width="100%">
+            <h3>Body Lotion</h3>
+            <p>$10</p>
+            <a href="#" target="_blank" style="background:green; color:white; padding:10px; display:block; text-align:center; text-decoration:none; border-radius:5px;">
+                Buy on Amazon
+            </a>
+        </div>
+
+    </div>
+</section>
+
+<footer style="background:#222; color:white; text-align:center; padding:15px;">
+    <p>© 2026 Swift Basket | Affiliate Store</p>
 </footer>
 
 </body>
